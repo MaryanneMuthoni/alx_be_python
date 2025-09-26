@@ -16,14 +16,14 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            add_item = input("What would you like to add? ")
-            shopping_list.append(add_item)
+            item = input("Enter the item to add: ")
+            shopping_list.append(item)
         elif choice == '2':
-            remove_item = input("What would you like to remove? ")
-            if remove_item in shopping_list:
-                shopping_list.remove(remove_item)
+            item = input("Enter the item to remove: ")
+            if item in shopping_list:
+                shopping_list.remove(item)
             else:
-                print(f"{remove_item} not in the list")
+                print(f"{item} not in the list")
         elif choice == '3':
             # Display the shopping list
             print(shopping_list)

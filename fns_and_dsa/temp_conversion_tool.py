@@ -2,8 +2,8 @@
 # This script will define functions to convert temperatures between Celsius and Fahrenheit 
 # Demonstrating the use of global variables to store conversion factors that are accessible within functions.
 
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 def convert_to_celsius(fahrenheit):
     return fahrenheit * FAHRENHEIT_TO_CELSIUS_FACTOR - 32
